@@ -15,7 +15,7 @@ function microCTTimeCollector()
 % $ EXIT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-templatePath = 'J:\Silva''s Lab\Lab People folders\Daniel Leib\Scanco Management\RSQHEADERTEMPLATE.COM';
+templatePath = [pwd 'RSQHEADERTEMPLATE.COM'];
 comFilePath = [pwd '\microCTComFile.com'];
 serverIP = '10.21.24.204';
 remoteScratch = 'IDISK1:[MICROCT.SCRATCH]';
