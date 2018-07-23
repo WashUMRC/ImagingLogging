@@ -1,0 +1,2 @@
+"c:\Program Files\MATLAB\R2018a\bin\matlab.exe" -r microCTTimeCollector -nodisplay -nosplash -nodesktop
+"c:\Program Files\MATLAB\R2018a\bin\matlab.exe" -r vivaCTTimeCollector -nodisplay -nosplash -nodesktop
