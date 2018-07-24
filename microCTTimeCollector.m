@@ -15,6 +15,7 @@ function microCTTimeCollector()
 % $ EXIT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 checkForPuTTy();
+mapNetworkDrives();
 
 templatePath = [pwd '\RSQHEADERTEMPLATE.COM'];
 comFilePath = [pwd '\microCTComFile.com'];
