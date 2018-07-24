@@ -2,6 +2,8 @@
 
 This set of scripts is intended to be used in logging time on the Scanco scanners, generate scan times, and generate the csv files required for upload to iLabs. 
 
+mapNetworkDrives will automatically map ortho network drives if they aren't already. The username and password must be set with currently active credentials.
+
 DXASync.cmd and VisionSync.cmd - these scripts are currently run as a scheduled Windows process every night. Together, they mirror the local Faxitron database at "J:\Silva's Lab\P30 Core Center\Faxitron Backup"  While this should be an automated process, running them manually once in a while won't hurt anything, and the Windows task scheduler should occasionally be checked up on.
 
 ImagingLabRecordKeepingIlabs - this script is run, and interacted with by Scanco scanner users, to connect Scanco machine records with iLabs information. The user should simply follow the prompts, filling in the user and PI information with their wustl email addresses.
