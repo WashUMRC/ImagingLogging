@@ -16,6 +16,7 @@ function [outMat] = vivaCTTimeCollector()
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 checkForPuTTy();
+mapNetworkDrives();
 
 templatePath = [pwd '\RSQHEADERTEMPLATE.COM'];
 comFilePath = [pwd '\microCTComFile.com'];
