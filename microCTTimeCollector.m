@@ -16,7 +16,7 @@ function microCTTimeCollector()
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 checkForPuTTy();
 
-templatePath = [pwd 'RSQHEADERTEMPLATE.COM'];
+templatePath = [pwd '\RSQHEADERTEMPLATE.COM'];
 comFilePath = [pwd '\microCTComFile.com'];
 serverIP = '10.21.24.204';
 remoteScratch = 'IDISK1:[MICROCT.SCRATCH]';
