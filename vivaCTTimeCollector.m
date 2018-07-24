@@ -15,6 +15,8 @@ function [outMat] = vivaCTTimeCollector()
 % $ EXIT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+checkForPuTTy();
+
 templatePath = [pwd '\RSQHEADERTEMPLATE.COM'];
 comFilePath = [pwd '\microCTComFile.com'];
 serverIP = '10.21.24.203';
