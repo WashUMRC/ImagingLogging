@@ -14,6 +14,7 @@ function microCTTimeCollector()
 % $ ctheader dk0:[microct.data.SAMPLE.MEASUREMENT]CNUMBER.RSQ;1
 % $ EXIT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+checkForPuTTy();
 
 templatePath = [pwd 'RSQHEADERTEMPLATE.COM'];
 comFilePath = [pwd '\microCTComFile.com'];
