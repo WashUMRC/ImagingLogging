@@ -41,7 +41,7 @@ comFile = fopen(comFilePath,'wt');
 fprintf(comFile,'%s','$ SET FILE/ATTRIBUTEs=RFM=STM');
 fprintf(comFile,'%s\n','');
 fprintf(comFile,'%s\n','$! Original code created by Dan Leib');
-f = ftp(serverIP,'microct','mousebone4');
+f = ftp(serverIP,'microct','mousebone4','System','OpenVMS');
 ascii(f);
 cd(f,'dk0');
 cd(f,'data');
